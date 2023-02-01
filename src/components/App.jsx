@@ -1,8 +1,8 @@
-import { Component } from 'react';
-import { ContactList } from './ContactList';
+import React,{ Component } from 'react';
+import { ContactList } from './ContactList/ContactList';
 import { nanoid } from 'nanoid';
-import { ContactForm } from './ContactForm';
-import { Filter } from './Filter';
+import { ContactForm } from './ContactForm/ContactForm';
+import { Filter } from './Filter/Filter';
 import { Appstyle } from './App.styled';
 
 export class App extends Component {
